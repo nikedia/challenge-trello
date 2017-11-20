@@ -1,0 +1,258 @@
+           /* <!-- reset --> */
+* {
+  margin: 0;
+  padding: 0;
+}
+           /* <!-- general aspects --> */
+body {
+  background: #0079BF;
+    /* 14px "Helvetica Neue",Arial,Helvetica,sans-serif */
+  font-family: Helvetica Neue,Arial,Helvetica,sans-serif;
+ }
+
+/* -----------<!-- html -->----------- */
+
+         /* <!-- header --> */
+header {
+  height: 38px;
+  width: 100%;
+  background: #026aa7;
+  position: fixed;
+  clear: both;
+  overflow: hidden;
+  color: white;
+  display: block;
+  
+}
+
+.left-box, .center-box, .rigth-box {
+  display: inline-block;
+}
+/* <!-- left --> */
+.left-box {
+  outline: 1px solid green;
+  float: left;
+  /* display: inline-block; */
+  /* transform: translateY(-50%); */
+  width: 500px;
+  text-align: center;
+  box-sizing: border-box;
+  color: #fff;
+}
+
+.iTablero {
+  
+  transform: translateY(30%);
+  display: inline-block
+}
+
+.tablero-board {
+  background: #4D95BF;
+  height: 31px;
+  width: 96px;
+  border-radius: 5px;
+  display: inline-block;
+  position: absolute;
+  left: 5px;
+  transform: translateY(10%);
+  text-align: center;
+  
+}
+
+.tablero {
+  /* outline: 1px solid yellow; */
+  padding-left: 5px;
+  /* vertical-align: middle; */
+  font-weight: bold;
+  transform: translateY(30%);
+  display: inline-block
+}
+
+.browser-board {
+  background: #4D95BF;
+  border-radius: 5px;
+  display: inline-block;
+  position: absolute;
+  left: 107px;
+  transform: translateY(10%);
+  border-style: none;
+  border: none; 
+  height: 31px;
+  width: 181px;
+  z-index: 8;
+  
+}
+
+.browser-board i {
+  color: #fff;
+  z-index: 10;
+  position: absolute;
+  transform: translateY(40%);
+  right: 5px;
+
+
+}
+
+.input-browser-board {
+  background: transparent;
+    /* background: #fff;  */
+  height: 31px;
+  width: 181px;
+   /* border-radius: 5px;
+  display: inline-block;
+  position: absolute;
+  left: 107px;
+  transform: translateY(10%);
+  border-style: none; */
+  border: none;
+  /* height: 25px; */
+  z-index: 9;
+
+}
+
+
+
+/* <!-- center--> */
+.center-box {
+  position: absolute;
+  left: 40%;
+  transform: translateY(25%);
+}
+
+img {
+  height: 25px;
+  width: auto;
+}
+
+img:hover {
+  color: #4D95BE;
+  cursor: pointer;
+  
+}
+
+/* <!-- rigth --> */
+.rigth-box {
+  float: right;
+  transform: translateY(15%);
+  padding-right: 10px;
+
+}
+
+ul {
+  /* outline: 1px solid yellow; */
+  list-style: none;
+  /* float: right; */
+}
+
+li {
+  /* outline: 1px solid red; */
+  display: inline-block;
+  height: 30px;
+  width: 30px;
+  margin-left: 5px;
+  text-align: center;
+  background: #4D95BF;
+  /* transform: translateY(50%); */
+  border-radius: 5px;
+}
+
+.list {
+  /* outline: 1px solid yellow; */
+  margin: 0 auto;
+  padding: 0;
+  /* vertical-align: center; */
+  /* position: absolute; */
+  transform: translateY(50%);
+  /* top: 7px; */
+  
+}
+
+/* li:nth-of-type(2) {
+  border-radius: 50%;
+  
+  border: #000;
+  height: 5px auto;
+
+} */
+
+/* .iCircle {
+  border-radius: 50%;
+  background: #000;
+  height: 100px;
+  width: 100px;
+} */
+
+.add-list {
+  height: 37px;
+  width: 271px;
+  background:#0067A3;
+  position: absolute;
+  top: 50px;
+  border-style: none;
+  left: 20px;
+  border-radius: 5px;
+}
+
+.add-list-box2 {
+   height: 37px;  /*  82px */
+   width: 271px;
+   background:#D7D8DA;
+   /* background:#E2E4E6; */
+   position: absolute;
+   top: 100px;
+   border-style: none;
+   left: 20px;
+   /* border-color: red; */
+   border-radius: 5px;
+ } 
+
+ .add-list-box2::-webkit-input-placeholder {
+  color: red;
+ 
+  padding: 10px; 
+  
+  font-size: 1em; 
+}
+
+
+
+.add-list:hover {
+  cursor: pointer;
+  background: #005485;
+}
+
+.add-list::-webkit-input-placeholder {
+  color: #CCE0EC;
+  /* text-align: center;  */
+   /* width:300px; */
+  padding:10px; 
+  /* margin-bottom:5px; */
+  font-size:1em; 
+}
+
+/* -----------<!-- js -->----------- */
+
+ /* .add-list2 {
+ height: 37px;  /*  82px */
+  width: 271px;
+  background:#D7D8DA;
+  /* background:#E2E4E6; */
+  position: absolute;
+  top: 100px;
+  border-style: none;
+  left: 20px;
+  box-sizing:
+}  */
+
+/* .add-list-box2-js {
+  height: 82px;  /*  82px */
+  width: 271px;
+  /* background:#D7D8DA; */
+  background: #E2E4E6;
+  position: relative;
+  top: 100px;
+  border-style: none;
+  left: 20px;
+} */
+
+
